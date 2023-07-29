@@ -8,18 +8,64 @@
         @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
         </style>
         <link rel ="stylesheet" href="assets/css/style.css">
-    <title>Music Theory</title>
+       
+    <title>Big Little Quiz</title>
 
 </head>
 
 <body>
-    <h1>Big Music Quiz</h1>
+    <h1>Big Little Quiz!</h1>
 
-<h2> Test Your Music Theory Knowledge!</h2>
-<div> <img> big notation picture</div>
-<button> Start Quiz!</button>
+<h2> Test Your Knowledge!</h2>
+
+
+<div id="question-area"> 
+ <div id="choose-game">
+
+    <button data-type="string" class="button btn-big btn-blue"id="geography"> <i class="fa-solid fa-globe">Geography</i> </button>
+    <button data-type="string" class="button btn-big btn-red" id="music"><i class="fa-solid fa-music">  Music</i>  </button>
+    <button data-type="string" class="button btn-big btn-green" id="sport"> <i class="fa-solid fa-dumbbell">  Sport</i></button>
+    <button data-type="string" class="button btn-big btn-yellow" id="television"> <i class="fa-solid fa-tv">  Television</i> </button>
+
+ </div>
+
+ <div class="questions-box">
+    <div class="show-question">
+        <div id="question">Question</div>
+        <hr>
+        <div>
+            <input type="text" id="answer">
+        </div>
+        <hr>
+
+    
+    </div>
+ <input type="text" id="answer-box">
+
+ </div>
+
+ <button data-type="Submit" id="btn"> Submit</button>  
+</div>
+
+
+
+
+   
+<div id="score-box"></div>
+
+
+
+
+
+
+
+
+
+
+
 
 <footer> </footer>
-    
+<script src="assets/js/script.js"></script>
+<script src="https://kit.fontawesome.com/09fa2d17e2.js" crossorigin="anonymous"></script>  
 </body>
 </html>
